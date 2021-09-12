@@ -1,0 +1,73 @@
+#sidebar{
+  
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    overflow-y: hidden;
+    
+   
+    
+}
+.parts{
+    width: 15vw;
+    padding: 10px;
+    margin:10px;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+    background-color: snow;
+    border-radius: 10px;
+}
+button{
+    background-color: #97eec9;
+    border-radius: 3px;
+    height: 40px;
+border: 0px;
+    font-weight: lighter;
+   
+}
+#hor{
+    background-color:#ebf2f8 ;
+    width:50px;
+}
+#ver{
+    width:50px;
+}
+
+.main{
+   height: 100vh;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #ebf2f8;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    
+   
+}
+#hi{
+display: flex;
+flex-direction: row;
+}
+#icon{
+    height: 40px;
+    width:40px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.diffButton{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 5px;
+}
